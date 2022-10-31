@@ -1,0 +1,35 @@
+.parent{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+.left{
+    height:100%;
+    width:20%;
+    background-color: lavenderblush;
+    color: black;
+    text-align: center;
+
+}
+.left>h4{
+    cursor: pointer;
+}
+.left>h4:focus{
+    height: 30px;
+    background-color: grey;
+}
+
+.left>button:hover{
+    cursor:pointer;
+    background-color: goldenrod;
+    color: whitesmoke;
+}
+
+
+.right{
+    height: 100%;
+    width: 80%;
+    background-color: lavender;
+    display: flex;
+    overflow: auto;
+}
